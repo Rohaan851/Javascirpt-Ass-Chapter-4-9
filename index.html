@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascripth(4&6)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script>
+        
+        // Chapter no 4 : Variable Names Legal and Illegal
+
+        // Question no 1
+
+        // var firstname,Secondname,Thirdyname;
+
+        // Question no 2
+        
+        // Legal variable names:
+
+        // var fullname;
+        // var full_name;
+        // var myVaar;
+        // var number1;
+        // var lasttime;
+
+        // Illegal variable names:
+
+        // var alert;
+        // var full-name;
+        // var 1number;
+        // var +Number;
+        // var my name;
+        
+        // Question no 3
+
+        // document.write("<h1> Rules for naming JS variables </h1>")
+        // document.write("<p> Variable names can only contain letters, numbers, underscores, and dollar signs. For example $my_1stVariable <br> Variables must begin with a letter, underscore, or dollar sign. For example $name, _name, or name <br> Variable names are case sensitive <br> Variable names should not be JS keywords</p>")
+        
+        // --END--
+
+
+        
+       // Chapter no 5 : Math expressions:Familiar operators
+
+        // Question no 1
+
+        // var num1 = +prompt("Enter first number:");
+        // var num2 = +prompt("Enter second number:");
+
+        // var sum = num1 + num2;
+
+        // document.write("<h1>Result</h1>");
+        // document.write("<p>The sum of " + num1 + " and " + num2 + " is: " + sum + "</p>");
+
+        // Question no 2
+
+        // Subtraction;
+         
+        // var num1 = +prompt("Enter first number:");
+        // var sabal = +prompt("Enter Your Sabal:");
+        // var num2 = +prompt("Enter second number:");
+
+        // var sum = num1 - num2;
+        
+        // alert(sum);
+
+        // Multiplication;
+
+        // var num1 = +prompt("Enter first number:");
+        // var sabal = +prompt("Enter Your Sabal:");
+        // var num2 = +prompt("Enter second number:");
+
+        // var sum = num1 * num2;
+        
+        // alert(sum);
+
+        // Division;
+
+        // var num1 = +prompt("Enter first number:");
+        // var sabal = +prompt("Enter Your Sabal:");
+        // var num2 = +prompt("Enter second number:");
+
+        // var sum = num1 / num2;
+        
+        // alert(sum);
+
+        // Modulus;
+
+        // var num1 = +prompt("Enter first number:");
+        // var sabal = +prompt("Enter Your Sabal:");
+        // var num2 = +prompt("Enter second number:");
+
+        // var sum = num1 % num2;
+        
+        // alert(sum);
+
+
+        // Question no 3
+
+        
+        // var Variable;
+
+        // document.write("Value after variable declaration is: " + Variable + "<br>");
+
+        // Variable = 5;
+
+        // document.write("Initial value: " + Variable + "<br>");
+
+        // Variable++;
+
+        // document.write("Value after increment is: " + Variable + "<br>");
+
+        // Variable+= 7;
+
+        // document.write("Value after addition is: " + Variable + "<br>");
+
+        // Variable--;
+
+        // document.write("Value after decrement is: " + Variable + "<br>");
+
+        // var remainder = Variable % 3;
+        // document.write("The remainder is: " + remainder + "<br>");
+
+        
+        // Question no 4
+
+
+        // var sum = 600;
+
+        // var sum = sum * 5;
+
+        // document.write("Total cost ot buy 5 tickets to a movie is "  + sum +  " PKR");
+
+
+        // Question no 5
+
+        // var number = +prompt("Enter Your Number");
+        // document.write("<h2> Table of " + number + "</h2>");
+        
+       
+        // for (let one = 1; one <= 10; one++) {
+        // document.write(number + " x " + one + " = " + (number * one) + "<br>");}
+       
+        // Question no 6
+
+        // Celsius to Fahrenheit
+        // var celsius = 25;
+        // var fahrenheit = (celsius * 9/5) + 32;
+        // document.write(celsius + "°C is " + fahrenheit + "°F <br>");
+
+        // Fahrenheit to Celsius
+        // var fahrenheit2 = 70;
+        // var celsius2 = (fahrenheit2 - 32) * 5/9;
+        // document.write(fahrenheit2 + "°F is " + celsius2 + "°C");
+
+
+        // Question no 7
+
+        
+        // let priceItem1 = 650;
+        // let priceItem2 = 100;
+
+        // let quantityItem1 = 3;
+        // let quantityItem2 = 7;
+
+        // let shippingCharges = 100;
+
+        // let totalCost = (priceItem1 * quantityItem1) + (priceItem2 * quantityItem2) + shippingCharges;
+
+        // document.write("<h2>Shopiinig Cart</h2>");
+        // document.write("<p>Price of Item 1 is " + priceItem1 + "</p>");
+        // document.write("<p>Quantity of Item 1 is " + quantityItem1 + "</p>");
+        // document.write("<p>Price of Item 2 is " + priceItem2 + "</p>");
+        // document.write("<p>Quantity of Item 2 is " + quantityItem2 + "</p>");
+        // document.write("<p>Shipping Charges " + shippingCharges + "</p>");
+        // document.write("<p>Total Cost of your order is " + totalCost + "</p>");
+
+
+        // Question no 8
+
+
+    // var totalmarks = 980;
+    // var marksObtained = 804;
+    // var percentage = (marksObtained / totalmarks) * 100;
+
+    // document.write("<h1>Marks Sheet</h1><br>")
+    // document.write(" Totalmarks : " + totalmarks + " <br> ")
+    // document.write(" Marks Obtained : "  + marksObtained + " <br> ")
+    // document.write(" Percentage : " + percentage + " % ")
+
+
+        // Question no 9
+
+        // var usDollars = 10;
+        // var saudiRiyals = 25;
+        // var exchangeRateUSD = 104.80;
+        // var exchangeRateSAR = 28;
+
+        // var totalPKR = (usDollars * exchangeRateUSD) + (saudiRiyals * exchangeRateSAR);
+        // document.write(" <h1> Currency in PKR </h1> ")
+        // document.write("Total Currency in PKR : " + totalPKR);
+
+
+        // Question no 10
+
+
+        // var number = 10;
+        // var result = ((number + 5) * 10) / 2;
+        // document.write("<h4> Calculations in a single expression : </h4> ")
+        // document.write("Result: " + result);
+
+
+        // Question no 11
+
+
+        // var currentYear = 2024;
+        // var birthYear = 2005;
+
+        // var Subtraction = currentYear - birthYear;
+
+        // document.write(" <h1> Age Calculator </h1>");
+        // document.write(" Current Year : " + currentYear + " <br> ");
+        // document.write("Birth Year : " + birthYear + " <br> ");
+        // document.write("Your Age is : " + Subtraction)
+
+
+
+        // Question no 12
+
+
+        // var radius = +prompt(" Enter Your Radius ");
+        // var circumference = 2 * Math.PI * radius;
+        // var area = Math.PI * Math.pow(radius,2);
+        // document.write(" <h1> The Geometrizer </h1><br>");
+        // document.write(" Radius of a circle : " + radius + " <br> ");
+        // document.write(" The circumference is : " + circumference + " <br> ");
+        // document.write(" The area is: " + area);
+
+
+         // Question no 13
+
+
+        //  var favoritesnack = prompt(" Enter Your Favorite Snack ");
+        //  var currentage = +prompt(" Enter Your Current Age ");
+        //  var maximumage = +prompt(" Enter Your Maximum Age ");
+        //  var amountperday = +prompt(" Enter Your Amount Pre Day ");
+
+        //  var yearremaining = maximumage - currentage ;
+        //  var dayremaining = yearremaining * 356;
+        //  var totalsnackrequired = dayremaining * amountperday;
+
+        // document.write(" <h1> The Lifetime Supply Calculator </h1><br>");
+        // document.write(" Favorite Snack : " + favoritesnack + " <br> ");
+        // document.write(" Current Age :" + currentage + " <br> ");
+        // document.write(" Estimated Maximum Age :" + maximumage + " <br> ");
+        // document.write(" Amount of snacks per day :" + amountperday + " <br> ");
+        // document.write(" You will need " + totalsnackrequired + " " + favoritesnack + " to last you until the ripe old age of  " + maximumage + ".");
+        
+
+        // ==END==
+
+
+
+
+        // Chapter no 6 & 9 :
+
+
+        
+        // Question no 1
+
+          
+        // var num = +prompt(" Enter Your Number ");
+        // var result = (num * 5) + 10 / 2;
+
+        // document.write("Result: " + result);
+
+
+        // Question no 2
+
+
+        // var a = +prompt(" Enter Your First Number ");
+        // var b = +prompt(" Enter Your Secend Number ");
+
+        // var result1 = --a;
+        // var result2 = --a - --b;
+        // var result3 = --a - --b + ++b;
+        // var result4 = --a - --b + ++b + b--;
+
+        // document.write(" <h3> The output at each stage: </h3> <br> ");
+        // document.write(" --a : " + result1 + " <br> " );
+        // document.write(" --a - --b : " + result2 + " <br> ");
+        // document.write(" --a - --b + ++b : " + result3 + " <br> ");
+        // document.write(" --a - --b + ++b + b-- : " + result4 + " <br> ");
+
+
+
+        // Question no 3
+
+        
+        // var name = prompt("Enter your name:");
+        // alert("Hello, " + name + "! Welcome to our website!");
+
+
+        // Question no 5
+
+
+        
+        // var number = prompt("Enter a number:");
+        // number = parseInt(number) || 5; 
+
+        // document.write("<h2>Multiplication Table of " + number + "</h2>");
+
+        // for (var i = 1; i <= 10; i++) {
+        // document.write(number + " x " + i + " = " + (number * i) + "<br>");
+        // }
+
+         
+        // Queston no 6
+
+
+        
+    // var subject1 = prompt("Enter name of first subject:");
+    // var subject2 = prompt("Enter name of second subject:");
+    // var subject3 = prompt("Enter name of third subject:");
+
+    
+    // var totalMarks = 100;
+
+    
+    // var obtainedMarks1 = +prompt("Enter obtained marks for " + subject1 + ":");
+    // var obtainedMarks2 = +prompt("Enter obtained marks for " + subject2 + ":");
+    // var obtainedMarks3 = +prompt("Enter obtained marks for " + subject3 + ":");
+
+    
+    // var totalObtainedMarks = obtainedMarks1 + obtainedMarks2 + obtainedMarks3;
+    // var totalPercentage = (totalObtainedMarks / (totalMarks * 3)) * 100;
+
+    
+    // document.write("<h2>Student Result</h2>");
+    // document.write("<table border='1'>");
+    // document.write("<tr><th>Subject</th><th>Total Marks</th><th>Obtained Marks</th></tr>");
+    // document.write("<tr><td>" + subject1 + "</td><td>" + totalMarks + "</td><td>" + obtainedMarks1 + "</td></tr>");
+    // document.write("<tr><td>" + subject2 + "</td><td>" + totalMarks + "</td><td>" + obtainedMarks2 + "</td></tr>");
+    // document.write("<tr><td>" + subject3 + "</td><td>" + totalMarks + "</td><td>" + obtainedMarks3 + "</td></tr>");
+    // document.write("<tr><td>Total</td><td>" + (totalMarks * 3) + "</td><td>" + totalObtainedMarks + "</td></tr>");
+    // document.write("<tr><td>Percentage</td><td></td><td>" + totalPercentage.toFixed(2) + "%</td></tr>");
+    // document.write("</table>");
+
+
+
+    // ==END==
+
+
+</script>
+<body>
+    
+
+
+    
+    
+</body>
+</html>
